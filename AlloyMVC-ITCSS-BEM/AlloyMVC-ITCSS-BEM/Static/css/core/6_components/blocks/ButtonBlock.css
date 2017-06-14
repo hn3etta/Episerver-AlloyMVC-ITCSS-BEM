@@ -1,0 +1,27 @@
+﻿
+
+.buttonblock__link {
+    height: 50px;
+    width: 100%;
+    max-width: 170px;
+    border-radius: 4px;
+    background: #2677af;
+    background-image: -moz-linear-gradient(center top, #3989c2, #2677af);
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    clear: both;
+    font-weight: bold;
+}
+
+    .buttonblock__link:hover {
+        background: #4b8ab7;
+        background-image: -moz-linear-gradient(center top, #5f9eca, #4b8ab7);
+        text-decoration: none;
+        color: #fff;
+    }
+

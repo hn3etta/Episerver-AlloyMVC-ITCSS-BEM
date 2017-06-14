@@ -1,0 +1,13 @@
+@model JumbotronBlock
+
+<div class="jumbotronblock__image-cntr hidden-tablet hidden-phone">
+    @Html.PropertyFor(m => m.Image, new { CssClass = "jumbotronblock__image-container__image" })
+</div>
+
+<div class="jumbotronblock__content-cntr">
+    <h1 class="jumbotronblock__content-cntr__heading" @Html.EditAttributes(m => m.Heading)>@Model.Heading</h1>
+    <p class="jumbotronblock__content-cntr__sub-heading" @Html.EditAttributes(m=>m.SubHeading)>@Model.SubHeading</p>
+    <a class="btn-blue right" href="@Model.ButtonLink" id="jumboLink" @Html.EditAttributes(m => m.ButtonText)>
+        @Model.ButtonText
+    </a>
+</div>

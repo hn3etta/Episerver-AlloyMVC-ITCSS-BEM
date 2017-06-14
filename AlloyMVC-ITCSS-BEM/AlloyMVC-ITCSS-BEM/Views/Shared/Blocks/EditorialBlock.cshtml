@@ -1,0 +1,5 @@
+@model EditorialBlock
+
+<div class="editorialblock__container clearfix" @Html.EditAttributes(x => x.MainBody)>
+    @Html.DisplayFor(x => Model.MainBody)
+</div>
