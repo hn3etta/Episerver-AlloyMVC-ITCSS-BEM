@@ -261,6 +261,6 @@ __pycache__/
 *.pyc
 
 # Episerver - ignores
-App_Data/blobs
-App_Data/index
+App_Data/blobs/
+App_Data/index/
 GeoLiteCity.dat
