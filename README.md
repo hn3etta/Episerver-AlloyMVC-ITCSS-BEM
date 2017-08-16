@@ -1,7 +1,7 @@
 # Episerver-AlloyMVC-ITCSS-BEM
 Episerver Alloy MVC project using ITCSS and BEM
 
-This example project was created for the Aware Web Solutions Episerver Blog.  You can read the full [blog post here](http://www.awareweb.com/awareblog/).
+This example project was created for the Aware Web Solutions Episerver Blog.  You can read the full [blog post here](http://www.awareweb.com/awareblog/7-24-17-itcss_and_bem_naming_for_your_next_episerver_project).
 
 ## How to run the project
 
